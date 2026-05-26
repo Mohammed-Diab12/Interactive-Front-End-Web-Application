@@ -1,0 +1,26 @@
+{
+  "name": "studynight",
+  "version": "1.0.0",
+  "description": "Flashcard study application",
+  "license": "MIT",
+  "author": "Mohammed Diab",
+  "type": "module",
+  "scripts": {
+    "test": "gulp test",
+    "gulp": "gulp",
+    "build": "parcel build index.html",
+    "cypress": "gulp cypress"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.2",
+    "chai": "^6.2.2",
+    "cypress": "^15.10.0",
+    "eslint": "^9.39.2",
+    "globals": "^17.3.0",
+    "gulp": "^5.0.1",
+    "gulp-cli": "^3.1.0",
+    "gulp-shell": "^0.8.0",
+    "mocha": "^11.7.5",
+    "parcel": "^2.16.4"
+  }
+}
